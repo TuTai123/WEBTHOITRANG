@@ -1,0 +1,100 @@
+.bannerX{
+	height: 600px;
+	width: 300px;
+	border: 1px solid #ccc;
+	position: relative;
+	perspective: 800px;
+	overflow: hidden;
+	margin: 100px auto;
+	font-family:"Myriad Pro", "sans-serif", Arial;
+	/*background-image: linear-gradient(rgba(243,129,129,0.9), rgba(252,227,138,0.9))*/
+	background-image: url(../images/nen.jpg);
+
+}
+.hinh{
+	position: absolute;
+/*	top: 7%;
+	left: 7%;*/
+/*	animation:bg-hinh 10s infinite;*/
+
+}
+.logo{
+	top: 5%;
+	position: absolute;
+	left: 10%;	
+	animation: dh-logoM 20s infinite,dh-xoayX 2s 1s infinite,lap-tho .5s infinite;
+}
+.text-1{
+	top: 23%;
+	left: 4%;
+	position: absolute;
+	animation: dh-text1 5s infinite;
+}
+.text-2{
+	top: 62%;
+	left: 20%;
+	position: absolute;
+	animation: dh-al 10s infinite;
+}
+.shopping{
+	top: 83%;
+	position: absolute;
+	left: 38%;
+	animation: dh-shopping 20s infinite;
+}
+.email{
+	top: 91%;
+	position: absolute;
+	left: 17%;
+	animation: dh-email 20s infinite;
+}
+.cot{
+	position: absolute;
+	top: 26%;
+	left: 10%;
+}
+@keyframes bg-hinh{
+	0%{top: -100px}
+	100%{top: 7%}
+}
+@keyframes dh-logoM{
+	0%,5%{top: -100px}
+	10%,100%{top: 5%}
+}
+@keyframes dh-xoayX{
+	0%{transform: rotateY(0)}
+	100%{transform: rotateY(360deg)}
+}
+@keyframes dh-text1{
+	0%{transform: scaleX(0);}
+	100%{transform: scaleX(1)}
+}
+@keyframes lap-tho{
+	0%,100%{ transform: scale(1)}
+	50%{  transform: scale(1.1)}
+}
+@keyframes dh-text2{
+	15%{left: -350px}
+	20%,100%{left: 20%}
+}
+@keyframes dh-shopping{
+	25%{opacity: 0}
+	100%{opacity: 1}
+}
+@keyframes dh-email{
+	0%{left: 350px}
+	20%,100%{left: 17%}
+}
+@keyframes dh-al{
+	0%,25%{transform: scale(4);opacity: 0;filter: blur(60px) hue-rotate(0)}
+	28%{transform: scale(1);opacity:1;filter: blur(20px) hue-rotate(0)}
+	33%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(0)}
+	34%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(60deg)}
+	35%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(-0deg)}
+	36%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(180deg)}
+	37%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(30deg)}
+	38%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(100deg)}
+	39%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(-90deg)}
+	40%,100%{transform: scale(1);opacity: 1;filter: blur(0px) hue-rotate(0)}
+	
+}

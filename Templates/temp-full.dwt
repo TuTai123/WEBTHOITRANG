@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Gloreya Hambuger</title>
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="../images/footer_logo 1.png" type="image/x-icon">
+<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/main-style.css" type="text/css">
+<link rel="stylesheet" href="../css/all.min.css" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="section-bg-img cover ">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container"> <a class="navbar-brand d-lg-none d-md-block" href="#"><img src="../images/logo 1.png"></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" > <i class="navbar-toggler-icon"></i> </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto text-uppercase">
+          <li class="nav-item active px-3 mt-4"> <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item  px-3 mt-4"> <a class="nav-link" href="#">Menu</a> </li>
+          <li class="nav-item  px-3 mt-4"> <a class="nav-link " href="#">Về Chúng tôi</a> </li>
+          <li class="nav-item d-none d-lg-block ml-5"><a href="../index.html" class=""> <img src="../images/logo 1.png"></a></li>
+          <li class="nav-item  px-3 mt-4"> <a class="nav-link" href="#">Cửa Hàng</a> </li>
+          <li class="nav-item  px-3 mt-4"> <a class="nav-link" href="#">Liên hệ</a> </li>
+          <div class="navbar-text  px-3 mt-3"><a class="nav-link position-relative border-0" href="#" > <i class="fas fa-shopping-cart"></i> <span class="badge badge-danger badge-pill py-1"><small>0</small></span> </a></div>
+          <form class="form-inline">
+            <button type="button" class="btn btn-danger">ĐẶT HÀNG ONLINE</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- TemplateBeginEditable name="tieude-trang" -->
+  <div class="tuy">banner hoac tieu de trang</div>
+  <!-- TemplateEndEditable --></div>
+<!--het cover-->
+<!-- TemplateBeginEditable name="EditRegion2" -->
+<main></main>
+<!-- TemplateEndEditable -->
+<footer class="section-bg-img" >
+  <div class="container py-5 mt-5">
+    <div class="mt-4 border-bottom border-secondary position-relative py-3">
+      <div class="position-absolute logo px-5"><img src="../images/footer_logo 1.png" class="mx-auto d-block "></div>
+    </div>
+    <div class="row text-light mt-5 pt-5">
+      <div class="col-md-6 col-lg-3 text-center mt-4 mt-md-5 mt-lg-0">
+        <h4 class="mb-4">ĐỊA CHỈ</h4>
+        <p>778/10 Nguyễn Kiệm,<br>
+          Quận Phú Nhuận,<br>
+          TP HCM</p>
+      </div>
+      <div class="col-md-6 col-lg-3 text-center mt-4 mt-md-5 mt-lg-0">
+        <h4 class="mb-4">GIỜ MỞ CỬA</h4>
+        <p>Thứ 2 - Chủ Nhật<br>
+          10:00 AM - 11:00 PM</p>
+      </div>
+      <div class="col-md-6 col-lg-3 text-center mt-4 mt-md-5 mt-lg-0">
+        <h4 class="mb-4">ĐẶT BÀN</h4>
+        <p>SỐ PHONE<br>
+        <span class="text-warning display-5"><big>0392 012 998</big></span></p>
+      </div>
+      <div class="col-md-6 col-lg-3 text-center mt-4 mt-md-5 mt-lg-0">
+        <h4 class="mb-4">MẠNG XÃ HỘI</h4>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../js/jquery-3.3.1.min.js"></script> 
+<script src="../js/popper.min.js"></script> 
+<script src="../js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

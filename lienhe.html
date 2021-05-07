@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP STORE</title>
+  <link rel="shortcut icon" href="images/logo_2.png" type="image/x-icon">
+  <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main-style.css" type="text/css">
+  <link rel="stylesheet" href="css/all.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ <div class="section-bg-img cover_aonu ">
+	 <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" 
+   role="button" title="Back to Top" data-toggle="tooltip" data-placement="top">
+   <span class=""><img src="images/up.png" style="width: 20px; height: 20px;" alt=""></span>
+ </a>
+   <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container"> <a class="navbar-brand d-lg-none d-md-block" href="#"><img src="images/logo_2.png"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" > <i class="navbar-toggler-icon"></i> </button>
+        <div class="collapse navbar-collapse " id="menu">
+          <ul class="navbar-nav mx-auto text-uppercase dropdown d-flex">
+            <li class="nav-item  px-3 mt-4"> <a class="nav-link text-dark" href="gioithieu.html">GIỚI THIỆU</a> </li>
+            <li class="nav-item active px-3 mt-4 dropdown"> <a class="nav-link text-dark dropbtn " href="">CỬA HÀNG <span class="sr-only ">(current)</span></a> <div class="dropdown-content ">
+              <a href="aonu.html">Áo Nữ</a>
+              <a href="aonam.html">Áo Nam</a>
+            </div>
+          </li>
+          <li class="nav-item  px-3 mt-4"> <a class="nav-link text-dark" href="giay.html">GIÀY NỮ</a> </li>
+          <li class="nav-item  px-3 mt-4"> <a class="nav-link text-dark " href="saleoff.html">SALE OFF <sup class="text-danger">50%</sup></a> </li>
+            <li class="nav-item d-none d-lg-block "><a href="index.html" class=""> <img src="images/logo_2.png"></a></li>
+            <li class="nav-item  px-3 mt-4"> <a class="nav-link text-dark" href="tintuc.html">TIN THỜI TRANG</a> </li>
+            <li class="nav-item  px-3 mt-4"> <a class="nav-link text-dark" href="kichthuoc.html">KÍCH THƯỚC</a> </li>
+            <li class="nav-item  px-3 mt-4"> <a class="nav-link text-dark" href="lienhe.html">LIÊN HỆ</a> </li>
+            <div class="navbar-text  px-3 mt-3"><a class="nav-link position-relative border-0" href="thanhtoan.html" > <i class="fas fa-shopping-cart"></i> <span class="badge badge-danger badge-pill py-1"><small>0</small></span> </a></div>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+</div>
+<!--  main -->
+<div class="bg-bmi container">
+  <div class="container d-flex f-wrap ">
+    <div class="col-md-6 img-bmi text-center d-flex">
+      <div class="col-md-6">
+        <img src="images/phone.jpg" style="height: 100px;width: 100px;" alt="">
+        <h5>TELEPHONE</h5>
+        <p>Cả Tuần 9am – 5pm</p>
+        <p>+44 (0) 1752 581 458 </p>
+        <button class="btn btn-dark">CALL</button>
+      </div>
+      <div class="col-md-6">
+       <img src="images/gmail.jpg" style="height: 100px;width: 100px;" alt="">
+       <h5>TELEPHONE</h5>
+       <p>Liên lạc với gmail shop</p>
+       <p>vipstore@gmail.com </p>
+       <button class="btn btn-dark">CALL</button>
+     </div>     
+   </div>
+   <div class="col-md-6 bmi ">
+      <form class="form-contact" action="#" method="POST">
+          <div class="form-group ">
+            <input type="text" class="form-control w-100" name="fullname"  placeholder="Họ và tên" required oninvalid="this.setCustomValidity('Vui lòng nhập tên của bạn')" oninput="this.setCustomValidity('')">
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <input type="email" class="form-control" name="email" placeholder="Email" required oninvalid="this.setCustomValidity('Vui lòng nhập email')" oninput="this.setCustomValidity('')">
+            </div>
+            <div class="form-group col-sm-6">
+              <input type="tel" class="form-control" name="mobile" placeholder="Số điện thoại" required pattern="[0][0-9]{9,}"
+              oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại bắt đầu bằng số 0 và ít nhất 9 con số theo sau')" oninput="this.setCustomValidity('')">
+            </div>
+
+            <div class="form-group col-sm-12">
+
+              <textarea class="form-control" placeholder="Nội dung" name="content" rows="10" required></textarea>
+            </div>
+            <div class="form-group col-sm-12">
+              <button type="submit" class="btn btn-sm btn-primary pull-right">Gửi</button>
+            </div>
+          </div>
+        </form>
+<!--     <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>  
+    <p class="ml-3">LIÊN HỆ CHĂM SÓC KHÁCH HÀNG <br>
+      Chat: http://m.me/vipshop <br>
+      Email: cskh@vipshop.vn <br>
+      Hotline miễn phí cước gọi: 1900 4222 <br> -->
+<!--         <div class="col-md-6 d-flex">
+          <input type="text" placeholder="Tuổi">
+          <input type="text" placeholder="Giới tính">
+          <input type="text" placeholder="Số điện thoại">
+        </div>
+        <button class="btn btn-danger xacnhan">XÁC NHẬN</button> -->
+      </div>
+    </div>
+  </div>
+  <div class="container my-4 map">
+    <div class="row">
+      <div class="col-md-12 ml-4">
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3919.223735437292!2d106.62966681433689!3d10.794168861818724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1618985055933!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="video ">
+    <video autoplay muted loop id="bg-video">
+      <source src="videos/video.mp4"  type="video/mp4" />
+    </video>
+  </div>
+  <!-- footer -->
+<div class="bg-red">
+  <div class="container d-flex footer">
+    <div class="col-md-4 footer-1">
+      <h5>LIÊN LẠC</h5>
+      <img src="images/logo_2.png" style="height: 30px;width: 30px;" alt="">
+      <p><i class="fa fa-phone"></i>1900 633 63852 </p>
+      <p><i class="fa fa-map-marker"></i>Thành Thái, Phường 12, Quận 10</p>
+      <p><i class="fa fa-clock-o"></i>10Thứ Hai - Chủ Nhật: 6:00 - 22:00</p>
+    </div>
+    <div class="col-md-4 footer-2">
+      <h5>PHƯƠNG THỨC THANH TOÁN</h5>
+      <a href=""><img src="images/tindung_1.jpg" style="height: 50px;width: 70px;" alt=""></a>
+      <a href="https://zalopay.vn/" target="_blank"><img src="images/tindung_2.png" style="height: 50px;width: 80px;" alt=""></a>
+      <a href="https://momo.vn/" target="_blank"><img src="images/tindung_3.png" style="height: 40px;width: 50px;" alt=""></a><br>
+      <a href=""><img src="images/tindung_4.png" class="ml-4" style="height: 60px;width: 80px;" alt=""></a>
+      <a href=""><img src="images/tindung_5.png" style="height: 50px;width: 70px;" alt=""></a>
+      <a href=""><img src="images/tindung_6.jpg" style="height: 70px;width: 90px;" alt=""></a>
+    </div>
+    <div class="col-md-4 footer-3">
+      <h5>MẠNG XÃ HỘI</h5>
+      <a href="https://www.facebook.com/"  target="_blank"><img src="images/fb.jpg" style="width: 42px; height: 42px;" alt=""></a> 
+      <a href="https://youtube.com"  target="_blank"><img src="images/youtube.jpg" style="width: 65px; height: 50px;" alt=""></a> 
+      <a href="https://twitter.com/?lang=vi"  target="_blank"><img src="images/tw.jpg"  style="width: 50px; height: 35px;" alt=""></a>
+       <form>
+            <fieldset class="form-group"> <label for="exampleInputEmail1">Nhập email nhận ưu đãi</label> <input type="email" class="form-control" placeholder="Nhập email"> </fieldset> 
+          </form>
+    </div>
+  </div>
+</div>
+<div class="footer_contact">
+  <div class="small-container">
+   <p class="text-center text-white">©2019. Công ty cổ phẩn VIPSTORE Văn phòng: 17/6A PHAN HUY ÍCH, PHƯỜNG 14, QUẬN GÒ VẤP, HỒ CHÍ MINH </p>
+ </div>
+</div>
+	
+	<!-- messenger -->
+<div class="container">
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primar f-phai" data-toggle="modal" data-target="#myModal">
+    <img src="images/messenger.png" style="height: 25px;height: 50px;" alt="">
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-bottom-right">
+      <div class="modal-content border-radis10">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title text-danger">Chat với cộng tác viên ...</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>     
+        <!-- Modal body -->
+        <div class="modal-body" >
+          <p class="text-secondary">Thường phản hồi trong vòng vài phút</p>
+          <p>Chào bạn, bạn muốn mua sản phẩm nào bên VIPSTORE.com</p>
+          <button class="btn btn-primary magrin-85 mb-2 "><img src="images/messenger.png"style="height: 30px; width: 60px;" alt="">Tiếp tục dưới tên Tài</button><br>
+          <button class="btn btn-warning magrin-85 ">Tiếp tục với vai trò khách hàng</button>
+          <br><p class="text-center"><span class="text-secondary">Bằng cách tiếp tục với vai trò khách, bạn đồng ý với</span> <br> Điều khoản, Chính sách dữ liệu và Chính sách cookie <span class="text-secondary">của Facebook.</span></p>
+        </div>    
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.3.1.js"></script>
+	<script src="js/backtotop.js"></script>
+</body>
+
+</html>
